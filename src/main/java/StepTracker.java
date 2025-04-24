@@ -10,7 +10,7 @@ active = 0;
   steps = 0;
  }
 
- public int addDailySteps(int b) {
+ public void addDailySteps(int b) {
 steps += b;
 numDays +=1;
 if(b >= minimum)
